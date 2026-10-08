@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vx-org/.github/main/profile/assets/vx-symbol-dark.svg">
-  <img alt="VX" src="https://raw.githubusercontent.com/vx-org/.github/main/profile/assets/vx-symbol-light.svg" width="96">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vx-org/.github/main/profile/assets/vx-lockup-dark.svg">
+  <img alt="VX" src="https://raw.githubusercontent.com/vx-org/.github/main/profile/assets/vx-lockup-light.svg" width="320">
 </picture>
 
 # VX
