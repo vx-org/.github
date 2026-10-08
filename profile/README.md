@@ -1,3 +1,7 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vx-org/.github/main/profile/assets/vx-lockup-dark.svg">
+  <img alt="VX" src="https://raw.githubusercontent.com/vx-org/.github/main/profile/assets/vx-lockup-light.svg" width="450">
+</picture>
 # VX
 
 Run development commands with the runtime versions your project needs.
