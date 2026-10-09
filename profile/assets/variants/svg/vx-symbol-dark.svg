@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512.0px"
+   height="512.0px"
+   viewBox="0.0 0.0 512.0 512.0"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1" />
+  <g
+     id="VX-symbol-layer">
+    <g
+       id="VX-symbol-components">
+      <path
+         id="VX-V-descending.001"
+         d="M48.00000,144.00000 L126.00000,144.00000 L240.00000,297.00000 L199.00000,346.00000 Z"
+         style="fill-rule:evenodd;fill:#D7FF3F" />
+      <path
+         id="VX-X-descending.001"
+         d="M219.00000,144.00000 L297.00000,144.00000 L453.00000,346.00000 L375.00000,346.00000 Z"
+         style="fill-rule:evenodd;fill:#D7FF3F" />
+      <path
+         id="VX-X-upper-ascending.001"
+         d="M385.00000,144.00000 L463.00000,144.00000 L385.00000,240.00000 L347.00000,190.00000 Z"
+         style="fill-rule:evenodd;fill:#D7FF3F" />
+      <path
+         id="VX-V-return.001"
+         d="M217.00000,346.00000 L288.00000,257.00000 L326.00000,306.00000 L291.00000,346.00000 Z"
+         style="fill-rule:evenodd;fill:#D7FF3F" />
+    </g>
+  </g>
+</svg>

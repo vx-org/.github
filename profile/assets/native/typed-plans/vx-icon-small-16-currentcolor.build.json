@@ -1,0 +1,59 @@
+{
+  "output_file": "artwork/vx/vx-icon-small-16-currentcolor-editable.svg",
+  "plan": {
+    "canvas": {
+      "width": 16,
+      "height": 16,
+      "view_box": "0 0 512 512"
+    },
+    "nodes": [
+      {
+        "type": "layer",
+        "id": "VX-symbol-layer",
+        "label": "VX approved angular symbol"
+      },
+      {
+        "type": "group",
+        "id": "VX-symbol-components",
+        "parent": "VX-symbol-layer",
+        "label": "Four independently editable approved components"
+      },
+      {
+        "type": "path",
+        "id": "VX-V-descending",
+        "d": "M48.00000,144.00000 L126.00000,144.00000 L240.00000,297.00000 L199.00000,346.00000 Z",
+        "fill": "currentColor",
+        "fill_rule": "evenodd",
+        "parent": "VX-symbol-components",
+        "label": "V descending component"
+      },
+      {
+        "type": "path",
+        "id": "VX-X-descending",
+        "d": "M219.00000,144.00000 L297.00000,144.00000 L453.00000,346.00000 L375.00000,346.00000 Z",
+        "fill": "currentColor",
+        "fill_rule": "evenodd",
+        "parent": "VX-symbol-components",
+        "label": "X descending component"
+      },
+      {
+        "type": "path",
+        "id": "VX-X-upper-ascending",
+        "d": "M385.00000,144.00000 L463.00000,144.00000 L385.00000,240.00000 L347.00000,190.00000 Z",
+        "fill": "currentColor",
+        "fill_rule": "evenodd",
+        "parent": "VX-symbol-components",
+        "label": "X upper ascending component"
+      },
+      {
+        "type": "path",
+        "id": "VX-V-return",
+        "d": "M217.00000,346.00000 L288.00000,257.00000 L326.00000,306.00000 L291.00000,346.00000 Z",
+        "fill": "currentColor",
+        "fill_rule": "evenodd",
+        "parent": "VX-symbol-components",
+        "label": "V return component"
+      }
+    ]
+  }
+}

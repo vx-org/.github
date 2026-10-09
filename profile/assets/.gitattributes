@@ -1,0 +1,6 @@
+# Keep new native exports and evidence byte-identical across checkouts.
+.gitattributes -text
+native/** -text
+variants/** -text
+manifest.json -text
+BRAND-RIGHTS.md -text

@@ -1,0 +1,1174 @@
+{
+  "schema_version": 1,
+  "scope": "Independent read-only QA of actual outputs; no artwork generated",
+  "approved_reference_commit": "999245ac3808be05bb0610673310020d29bf3cb2",
+  "observed_utc": "2026-10-09T15:21:43.629711+00:00",
+  "checks_status": "pass",
+  "artifacts_checked": 26,
+  "failed_artifacts": [],
+  "missing_required_plans": [],
+  "missing_expected_exports": [],
+  "visual_acceptance": "pending root's native reopen, light/dark, currentColor theme and 1x pixel review",
+  "provenance_acceptance": "pending correlation with real MCP/native receipts",
+  "artifacts": [
+    {
+      "artifact": "artwork/vx/vx-master-editable.svg",
+      "kind": "native_svg",
+      "plan": "vx-master",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 4007,
+        "sha256": "ee94819b78ab784fae28bb353ccd829cf3b8f305561e1f53afd65eb3bc9f1890",
+        "dimensions_px": [
+          640.0,
+          224.0
+        ],
+        "view_box": [
+          0.0,
+          0.0,
+          640.0,
+          224.0
+        ],
+        "aspect_ratio": 2.857142857142857,
+        "approved_path_count": 6,
+        "actual_path_count": 6,
+        "named_vx_layer_count": 2,
+        "total_native_layer_count": 3,
+        "named_vx_group_count": 2,
+        "literal_currentcolor_preserved": false,
+        "external_font_or_raster_found": false,
+        "currentcolor_background_visual_review": "not applicable",
+        "native_execution_provenance": "not inferred from XML; correlate the parent's real MCP/effect/process receipts"
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-lockup-light-editable.svg",
+      "kind": "native_svg",
+      "plan": "vx-lockup-light",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 3983,
+        "sha256": "6046a620f216b19edd67c9e02825d0228ab47df8a3200bfdbeff09161610b473",
+        "dimensions_px": [
+          640.0,
+          224.0
+        ],
+        "view_box": [
+          0.0,
+          0.0,
+          640.0,
+          224.0
+        ],
+        "aspect_ratio": 2.857142857142857,
+        "approved_path_count": 6,
+        "actual_path_count": 6,
+        "named_vx_layer_count": 2,
+        "total_native_layer_count": 3,
+        "named_vx_group_count": 2,
+        "literal_currentcolor_preserved": false,
+        "external_font_or_raster_found": false,
+        "currentcolor_background_visual_review": "not applicable",
+        "native_execution_provenance": "not inferred from XML; correlate the parent's real MCP/effect/process receipts"
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-lockup-dark-editable.svg",
+      "kind": "native_svg",
+      "plan": "vx-lockup-dark",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 4007,
+        "sha256": "b9523ffc18bf3bb67afc7340c3aa40a03672cc7df2f8d3c5471496d661ebc8dc",
+        "dimensions_px": [
+          640.0,
+          224.0
+        ],
+        "view_box": [
+          0.0,
+          0.0,
+          640.0,
+          224.0
+        ],
+        "aspect_ratio": 2.857142857142857,
+        "approved_path_count": 6,
+        "actual_path_count": 6,
+        "named_vx_layer_count": 2,
+        "total_native_layer_count": 3,
+        "named_vx_group_count": 2,
+        "literal_currentcolor_preserved": false,
+        "external_font_or_raster_found": false,
+        "currentcolor_background_visual_review": "not applicable",
+        "native_execution_provenance": "not inferred from XML; correlate the parent's real MCP/effect/process receipts"
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-symbol-light-editable.svg",
+      "kind": "native_svg",
+      "plan": "vx-symbol-light",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 2057,
+        "sha256": "76390d4503a8ea4bdb594a8ed1cf05a369509172f7594b4c2daf5fdf75512b23",
+        "dimensions_px": [
+          512.0,
+          512.0
+        ],
+        "view_box": [
+          0.0,
+          0.0,
+          512.0,
+          512.0
+        ],
+        "aspect_ratio": 1.0,
+        "approved_path_count": 4,
+        "actual_path_count": 4,
+        "named_vx_layer_count": 1,
+        "total_native_layer_count": 2,
+        "named_vx_group_count": 1,
+        "literal_currentcolor_preserved": false,
+        "external_font_or_raster_found": false,
+        "currentcolor_background_visual_review": "not applicable",
+        "native_execution_provenance": "not inferred from XML; correlate the parent's real MCP/effect/process receipts"
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-symbol-dark-editable.svg",
+      "kind": "native_svg",
+      "plan": "vx-symbol-dark",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 2073,
+        "sha256": "5dcf270de713148ba2e44110e15ed717408763cb23da8047cd8e927e381a0d99",
+        "dimensions_px": [
+          512.0,
+          512.0
+        ],
+        "view_box": [
+          0.0,
+          0.0,
+          512.0,
+          512.0
+        ],
+        "aspect_ratio": 1.0,
+        "approved_path_count": 4,
+        "actual_path_count": 4,
+        "named_vx_layer_count": 1,
+        "total_native_layer_count": 2,
+        "named_vx_group_count": 1,
+        "literal_currentcolor_preserved": false,
+        "external_font_or_raster_found": false,
+        "currentcolor_background_visual_review": "not applicable",
+        "native_execution_provenance": "not inferred from XML; correlate the parent's real MCP/effect/process receipts"
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-lockup-currentcolor-editable.svg",
+      "kind": "native_svg",
+      "plan": "vx-lockup-currentcolor",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 4013,
+        "sha256": "82065ae57e4ab9ca64f88bbf5c0ae8ae95bde7c275248c48bda87a31defd215f",
+        "dimensions_px": [
+          640.0,
+          224.0
+        ],
+        "view_box": [
+          0.0,
+          0.0,
+          640.0,
+          224.0
+        ],
+        "aspect_ratio": 2.857142857142857,
+        "approved_path_count": 6,
+        "actual_path_count": 6,
+        "named_vx_layer_count": 2,
+        "total_native_layer_count": 3,
+        "named_vx_group_count": 2,
+        "literal_currentcolor_preserved": true,
+        "external_font_or_raster_found": false,
+        "currentcolor_background_visual_review": "pending actual theme/background rendering",
+        "native_execution_provenance": "not inferred from XML; correlate the parent's real MCP/effect/process receipts"
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-symbol-currentcolor-editable.svg",
+      "kind": "native_svg",
+      "plan": "vx-symbol-currentcolor",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 2077,
+        "sha256": "a3f4d10e1db11e27c9b593b01cb2afb8673d10e298df55432a6d526b86faf697",
+        "dimensions_px": [
+          512.0,
+          512.0
+        ],
+        "view_box": [
+          0.0,
+          0.0,
+          512.0,
+          512.0
+        ],
+        "aspect_ratio": 1.0,
+        "approved_path_count": 4,
+        "actual_path_count": 4,
+        "named_vx_layer_count": 1,
+        "total_native_layer_count": 2,
+        "named_vx_group_count": 1,
+        "literal_currentcolor_preserved": true,
+        "external_font_or_raster_found": false,
+        "currentcolor_background_visual_review": "pending actual theme/background rendering",
+        "native_execution_provenance": "not inferred from XML; correlate the parent's real MCP/effect/process receipts"
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-icon-small-16-light-editable.svg",
+      "kind": "native_svg",
+      "plan": "vx-icon-small-16-light",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 2051,
+        "sha256": "06b69ade291054e013d600a2e18cec30df3d5fddfa3b39d9857648c75715c383",
+        "dimensions_px": [
+          16.0,
+          16.0
+        ],
+        "view_box": [
+          0.0,
+          0.0,
+          512.0,
+          512.0
+        ],
+        "aspect_ratio": 1.0,
+        "approved_path_count": 4,
+        "actual_path_count": 4,
+        "named_vx_layer_count": 1,
+        "total_native_layer_count": 2,
+        "named_vx_group_count": 1,
+        "literal_currentcolor_preserved": false,
+        "external_font_or_raster_found": false,
+        "currentcolor_background_visual_review": "not applicable",
+        "native_execution_provenance": "not inferred from XML; correlate the parent's real MCP/effect/process receipts"
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-icon-small-16-dark-editable.svg",
+      "kind": "native_svg",
+      "plan": "vx-icon-small-16-dark",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 2067,
+        "sha256": "b7a0f4b55f517a78f013957e24a536443d84bae34a86706c237abde586d3b414",
+        "dimensions_px": [
+          16.0,
+          16.0
+        ],
+        "view_box": [
+          0.0,
+          0.0,
+          512.0,
+          512.0
+        ],
+        "aspect_ratio": 1.0,
+        "approved_path_count": 4,
+        "actual_path_count": 4,
+        "named_vx_layer_count": 1,
+        "total_native_layer_count": 2,
+        "named_vx_group_count": 1,
+        "literal_currentcolor_preserved": false,
+        "external_font_or_raster_found": false,
+        "currentcolor_background_visual_review": "not applicable",
+        "native_execution_provenance": "not inferred from XML; correlate the parent's real MCP/effect/process receipts"
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-icon-small-16-currentcolor-editable.svg",
+      "kind": "native_svg",
+      "plan": "vx-icon-small-16-currentcolor",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 2071,
+        "sha256": "2cb39b334673931634fd63e2da21b4fc3a7df0f8553b45ec30377299db9a5baf",
+        "dimensions_px": [
+          16.0,
+          16.0
+        ],
+        "view_box": [
+          0.0,
+          0.0,
+          512.0,
+          512.0
+        ],
+        "aspect_ratio": 1.0,
+        "approved_path_count": 4,
+        "actual_path_count": 4,
+        "named_vx_layer_count": 1,
+        "total_native_layer_count": 2,
+        "named_vx_group_count": 1,
+        "literal_currentcolor_preserved": true,
+        "external_font_or_raster_found": false,
+        "currentcolor_background_visual_review": "pending actual theme/background rendering",
+        "native_execution_provenance": "not inferred from XML; correlate the parent's real MCP/effect/process receipts"
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-icon-small-24-light-editable.svg",
+      "kind": "native_svg",
+      "plan": "vx-icon-small-24-light",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 2051,
+        "sha256": "96b863e83d5b0b755a45e0373774782714eb078efd65e01e2ab3c961f2821441",
+        "dimensions_px": [
+          24.0,
+          24.0
+        ],
+        "view_box": [
+          0.0,
+          0.0,
+          512.0,
+          512.0
+        ],
+        "aspect_ratio": 1.0,
+        "approved_path_count": 4,
+        "actual_path_count": 4,
+        "named_vx_layer_count": 1,
+        "total_native_layer_count": 2,
+        "named_vx_group_count": 1,
+        "literal_currentcolor_preserved": false,
+        "external_font_or_raster_found": false,
+        "currentcolor_background_visual_review": "not applicable",
+        "native_execution_provenance": "not inferred from XML; correlate the parent's real MCP/effect/process receipts"
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-icon-small-24-dark-editable.svg",
+      "kind": "native_svg",
+      "plan": "vx-icon-small-24-dark",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 2067,
+        "sha256": "5a08bba5a9f31359b21fc951e2bf848ece6c9f1677ec95514478175acda666d5",
+        "dimensions_px": [
+          24.0,
+          24.0
+        ],
+        "view_box": [
+          0.0,
+          0.0,
+          512.0,
+          512.0
+        ],
+        "aspect_ratio": 1.0,
+        "approved_path_count": 4,
+        "actual_path_count": 4,
+        "named_vx_layer_count": 1,
+        "total_native_layer_count": 2,
+        "named_vx_group_count": 1,
+        "literal_currentcolor_preserved": false,
+        "external_font_or_raster_found": false,
+        "currentcolor_background_visual_review": "not applicable",
+        "native_execution_provenance": "not inferred from XML; correlate the parent's real MCP/effect/process receipts"
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-icon-small-24-currentcolor-editable.svg",
+      "kind": "native_svg",
+      "plan": "vx-icon-small-24-currentcolor",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 2071,
+        "sha256": "db7b67e3559ddfdd708feb50c79084a18609636f20384b2b827e43557ee02734",
+        "dimensions_px": [
+          24.0,
+          24.0
+        ],
+        "view_box": [
+          0.0,
+          0.0,
+          512.0,
+          512.0
+        ],
+        "aspect_ratio": 1.0,
+        "approved_path_count": 4,
+        "actual_path_count": 4,
+        "named_vx_layer_count": 1,
+        "total_native_layer_count": 2,
+        "named_vx_group_count": 1,
+        "literal_currentcolor_preserved": true,
+        "external_font_or_raster_found": false,
+        "currentcolor_background_visual_review": "pending actual theme/background rendering",
+        "native_execution_provenance": "not inferred from XML; correlate the parent's real MCP/effect/process receipts"
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-icon-small-16-currentcolor-preview.png",
+      "kind": "native_png",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 336,
+        "sha256": "a4232fcf528524150dde0abef454e26bd7725fc16da35e5a54483f6657614baa",
+        "dimensions_px": [
+          16,
+          16
+        ],
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "corner_rgba": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ]
+        ],
+        "nonzero_alpha_bbox": [
+          1,
+          4,
+          15,
+          11
+        ],
+        "native_pixel_size_candidate": true,
+        "visual_acceptance": "pending 1x pixel viewing on light/dark backgrounds",
+        "expectation_declared": true,
+        "alpha_components_8_connected": {
+          "alpha_gt_0": [
+            72
+          ],
+          "alpha_ge_128": [
+            35
+          ],
+          "interpretation": "diagnostic only; component count is not a visual readability verdict"
+        }
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-icon-small-16-dark-preview.png",
+      "kind": "native_png",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 437,
+        "sha256": "c694e68069b7b7b43bf48a8019e1835d504e49c8c09848b54cb0b8db77c14f42",
+        "dimensions_px": [
+          16,
+          16
+        ],
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "corner_rgba": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ]
+        ],
+        "nonzero_alpha_bbox": [
+          1,
+          4,
+          15,
+          11
+        ],
+        "native_pixel_size_candidate": true,
+        "visual_acceptance": "pending 1x pixel viewing on light/dark backgrounds",
+        "expectation_declared": true,
+        "alpha_components_8_connected": {
+          "alpha_gt_0": [
+            72
+          ],
+          "alpha_ge_128": [
+            35
+          ],
+          "interpretation": "diagnostic only; component count is not a visual readability verdict"
+        }
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-icon-small-16-light-preview.png",
+      "kind": "native_png",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 451,
+        "sha256": "d1371bf687feb7d7a0c1e17e426bb855fefe7bcff4e974a3107b4ab76b5c2290",
+        "dimensions_px": [
+          16,
+          16
+        ],
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "corner_rgba": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ]
+        ],
+        "nonzero_alpha_bbox": [
+          1,
+          4,
+          15,
+          11
+        ],
+        "native_pixel_size_candidate": true,
+        "visual_acceptance": "pending 1x pixel viewing on light/dark backgrounds",
+        "expectation_declared": true,
+        "alpha_components_8_connected": {
+          "alpha_gt_0": [
+            72
+          ],
+          "alpha_ge_128": [
+            35
+          ],
+          "interpretation": "diagnostic only; component count is not a visual readability verdict"
+        }
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-icon-small-24-currentcolor-preview.png",
+      "kind": "native_png",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 469,
+        "sha256": "f772f04adb518140996abe52d9dc26a7a2705e28ea35ea9ce8654c60ef986a36",
+        "dimensions_px": [
+          24,
+          24
+        ],
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "corner_rgba": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ]
+        ],
+        "nonzero_alpha_bbox": [
+          2,
+          6,
+          22,
+          17
+        ],
+        "native_pixel_size_candidate": true,
+        "visual_acceptance": "pending 1x pixel viewing on light/dark backgrounds",
+        "expectation_declared": true,
+        "alpha_components_8_connected": {
+          "alpha_gt_0": [
+            147
+          ],
+          "alpha_ge_128": [
+            83
+          ],
+          "interpretation": "diagnostic only; component count is not a visual readability verdict"
+        }
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-icon-small-24-dark-preview.png",
+      "kind": "native_png",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 650,
+        "sha256": "895fdf1249d1734ea6aec0668261f99f84f2400f93ea39df1e6d45407bed9fcf",
+        "dimensions_px": [
+          24,
+          24
+        ],
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "corner_rgba": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ]
+        ],
+        "nonzero_alpha_bbox": [
+          2,
+          6,
+          22,
+          17
+        ],
+        "native_pixel_size_candidate": true,
+        "visual_acceptance": "pending 1x pixel viewing on light/dark backgrounds",
+        "expectation_declared": true,
+        "alpha_components_8_connected": {
+          "alpha_gt_0": [
+            147
+          ],
+          "alpha_ge_128": [
+            83
+          ],
+          "interpretation": "diagnostic only; component count is not a visual readability verdict"
+        }
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-icon-small-24-light-preview.png",
+      "kind": "native_png",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 675,
+        "sha256": "7384d9163f363ea527e5db3fc267113585369f2c42f02157af58db05e25d4306",
+        "dimensions_px": [
+          24,
+          24
+        ],
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "corner_rgba": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ]
+        ],
+        "nonzero_alpha_bbox": [
+          2,
+          6,
+          22,
+          17
+        ],
+        "native_pixel_size_candidate": true,
+        "visual_acceptance": "pending 1x pixel viewing on light/dark backgrounds",
+        "expectation_declared": true,
+        "alpha_components_8_connected": {
+          "alpha_gt_0": [
+            147
+          ],
+          "alpha_ge_128": [
+            83
+          ],
+          "interpretation": "diagnostic only; component count is not a visual readability verdict"
+        }
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-lockup-currentcolor-preview.png",
+      "kind": "native_png",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 10675,
+        "sha256": "1ac2e389a58952db1f08da99bac5a025bf9f5e4413073861d22795e9858c65b3",
+        "dimensions_px": [
+          640,
+          224
+        ],
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "corner_rgba": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ]
+        ],
+        "nonzero_alpha_bbox": [
+          94,
+          55,
+          547,
+          169
+        ],
+        "native_pixel_size_candidate": false,
+        "visual_acceptance": "pending 1x pixel viewing on light/dark backgrounds",
+        "expectation_declared": true
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-lockup-dark-preview.png",
+      "kind": "native_png",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 13052,
+        "sha256": "045ea2ffa1569284b8c2e5ee68cb7933a0396eac214c5251121113fb06cab9eb",
+        "dimensions_px": [
+          640,
+          224
+        ],
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "corner_rgba": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ]
+        ],
+        "nonzero_alpha_bbox": [
+          94,
+          55,
+          547,
+          169
+        ],
+        "native_pixel_size_candidate": false,
+        "visual_acceptance": "pending 1x pixel viewing on light/dark backgrounds",
+        "expectation_declared": true
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-lockup-light-preview.png",
+      "kind": "native_png",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 13361,
+        "sha256": "c67db157632bac3871d2563803e17a3813aac5748d2ffb1f2abd83f22c727d67",
+        "dimensions_px": [
+          640,
+          224
+        ],
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "corner_rgba": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ]
+        ],
+        "nonzero_alpha_bbox": [
+          94,
+          55,
+          547,
+          169
+        ],
+        "native_pixel_size_candidate": false,
+        "visual_acceptance": "pending 1x pixel viewing on light/dark backgrounds",
+        "expectation_declared": true
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-master-preview.png",
+      "kind": "native_png",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 13052,
+        "sha256": "045ea2ffa1569284b8c2e5ee68cb7933a0396eac214c5251121113fb06cab9eb",
+        "dimensions_px": [
+          640,
+          224
+        ],
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "corner_rgba": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ]
+        ],
+        "nonzero_alpha_bbox": [
+          94,
+          55,
+          547,
+          169
+        ],
+        "native_pixel_size_candidate": false,
+        "visual_acceptance": "pending 1x pixel viewing on light/dark backgrounds",
+        "expectation_declared": true
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-symbol-currentcolor-preview.png",
+      "kind": "native_png",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 12331,
+        "sha256": "8a21189a0618f5d1afcd597b012682609f07211fa9ec2435746c4455f40d5b17",
+        "dimensions_px": [
+          512,
+          512
+        ],
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "corner_rgba": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ]
+        ],
+        "nonzero_alpha_bbox": [
+          48,
+          144,
+          463,
+          346
+        ],
+        "native_pixel_size_candidate": false,
+        "visual_acceptance": "pending 1x pixel viewing on light/dark backgrounds",
+        "expectation_declared": true
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-symbol-dark-preview.png",
+      "kind": "native_png",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 14018,
+        "sha256": "89a9f977f4408099253946850008821ebd74722aefd88b373329a5443c72545a",
+        "dimensions_px": [
+          512,
+          512
+        ],
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "corner_rgba": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ]
+        ],
+        "nonzero_alpha_bbox": [
+          48,
+          144,
+          463,
+          346
+        ],
+        "native_pixel_size_candidate": false,
+        "visual_acceptance": "pending 1x pixel viewing on light/dark backgrounds",
+        "expectation_declared": true
+      }
+    },
+    {
+      "artifact": "artwork/vx/vx-symbol-light-preview.png",
+      "kind": "native_png",
+      "inspection": {
+        "status": "pass",
+        "failures": [],
+        "bytes": 14888,
+        "sha256": "e837c08eadcf39395b3e5c77d5f07d9b8a87149fb86cdf7faa85613f8cb3dd96",
+        "dimensions_px": [
+          512,
+          512
+        ],
+        "mode": "RGBA",
+        "alpha_range": [
+          0,
+          255
+        ],
+        "corner_rgba": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            0
+          ]
+        ],
+        "nonzero_alpha_bbox": [
+          48,
+          144,
+          463,
+          346
+        ],
+        "native_pixel_size_candidate": false,
+        "visual_acceptance": "pending 1x pixel viewing on light/dark backgrounds",
+        "expectation_declared": true
+      }
+    }
+  ]
+}
