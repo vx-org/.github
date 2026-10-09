@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16px"
+   height="16px"
+   viewBox="0.0 0.0 512.0 512.0"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="VX-symbol-layer"
+     inkscape:label="VX approved angular symbol">
+    <g
+       id="VX-symbol-components"
+       inkscape:label="Four independently editable approved components">
+      <path
+         id="VX-V-descending.001"
+         inkscape:label="V descending component"
+         d="M48.00000,144.00000 L126.00000,144.00000 L240.00000,297.00000 L199.00000,346.00000 Z"
+         style="fill-rule:evenodd;fill:#D7FF3F" />
+      <path
+         id="VX-X-descending.001"
+         inkscape:label="X descending component"
+         d="M219.00000,144.00000 L297.00000,144.00000 L453.00000,346.00000 L375.00000,346.00000 Z"
+         style="fill-rule:evenodd;fill:#D7FF3F" />
+      <path
+         id="VX-X-upper-ascending.001"
+         inkscape:label="X upper ascending component"
+         d="M385.00000,144.00000 L463.00000,144.00000 L385.00000,240.00000 L347.00000,190.00000 Z"
+         style="fill-rule:evenodd;fill:#D7FF3F" />
+      <path
+         id="VX-V-return.001"
+         inkscape:label="V return component"
+         d="M217.00000,346.00000 L288.00000,257.00000 L326.00000,306.00000 L291.00000,346.00000 Z"
+         style="fill-rule:evenodd;fill:#D7FF3F" />
+    </g>
+  </g>
+</svg>

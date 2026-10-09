@@ -1,0 +1,87 @@
+{
+  "utc": "2026-10-09T15:46:00.705368+00:00",
+  "browser_version": "151.0.7922.34",
+  "title": "VX currentColor QA only",
+  "svg_count": 8,
+  "contexts": [
+    {
+      "contextColor": "rgb(16, 23, 19)",
+      "fills": [
+        "rgb(16, 23, 19)",
+        "rgb(16, 23, 19)",
+        "rgb(16, 23, 19)",
+        "rgb(16, 23, 19)",
+        "rgb(16, 23, 19)",
+        "rgb(16, 23, 19)"
+      ]
+    },
+    {
+      "contextColor": "rgb(16, 23, 19)",
+      "fills": [
+        "rgb(16, 23, 19)",
+        "rgb(16, 23, 19)",
+        "rgb(16, 23, 19)",
+        "rgb(16, 23, 19)"
+      ]
+    },
+    {
+      "contextColor": "rgb(16, 23, 19)",
+      "fills": [
+        "rgb(16, 23, 19)",
+        "rgb(16, 23, 19)",
+        "rgb(16, 23, 19)",
+        "rgb(16, 23, 19)"
+      ]
+    },
+    {
+      "contextColor": "rgb(16, 23, 19)",
+      "fills": [
+        "rgb(16, 23, 19)",
+        "rgb(16, 23, 19)",
+        "rgb(16, 23, 19)",
+        "rgb(16, 23, 19)"
+      ]
+    },
+    {
+      "contextColor": "rgb(244, 246, 242)",
+      "fills": [
+        "rgb(244, 246, 242)",
+        "rgb(244, 246, 242)",
+        "rgb(244, 246, 242)",
+        "rgb(244, 246, 242)",
+        "rgb(244, 246, 242)",
+        "rgb(244, 246, 242)"
+      ]
+    },
+    {
+      "contextColor": "rgb(244, 246, 242)",
+      "fills": [
+        "rgb(244, 246, 242)",
+        "rgb(244, 246, 242)",
+        "rgb(244, 246, 242)",
+        "rgb(244, 246, 242)"
+      ]
+    },
+    {
+      "contextColor": "rgb(244, 246, 242)",
+      "fills": [
+        "rgb(244, 246, 242)",
+        "rgb(244, 246, 242)",
+        "rgb(244, 246, 242)",
+        "rgb(244, 246, 242)"
+      ]
+    },
+    {
+      "contextColor": "rgb(244, 246, 242)",
+      "fills": [
+        "rgb(244, 246, 242)",
+        "rgb(244, 246, 242)",
+        "rgb(244, 246, 242)",
+        "rgb(244, 246, 242)"
+      ]
+    }
+  ],
+  "computed_inheritance_pass": true,
+  "qa_only_not_production_svg_or_png": true,
+  "native_gui_acceptance": false
+}

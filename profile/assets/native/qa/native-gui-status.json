@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "document_open_success": true,
+  "document_open_request_id": "dcc-mcp-cli-23432-0",
+  "document_open_response_sha256": "637ada08a57f74d4088d443906cd14acb617a2f02c1498e2d517b23293e2ec2f",
+  "official_metadata_success": false,
+  "official_metadata_error": "protocol_mismatch",
+  "metadata_request_id": "dcc-mcp-cli-106732-0",
+  "metadata_response_sha256": "b6761229a1a1f4c364652555128b4b49f9ac9d8492e40a418bd74f44cd563383",
+  "owned_ui_route_stop_success": true,
+  "stop_request_id": "dcc-mcp-cli-106632-0",
+  "stop_response_sha256": "8d33bbf05ba5a08b4157aed6bff1591e70a1ad2d9de52abd22d2dc3b789f2738",
+  "native_gui_visual_acceptance": false,
+  "status": "blocked_protocol_mismatch",
+  "alternate_capture_or_input_route_used": false
+}

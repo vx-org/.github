@@ -1,0 +1,1518 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-09T15:41:17.103095+00:00",
+  "mode": "pack",
+  "input_index_sha256": "fd1185d0e4a046a335f91f2b9dfa9505f8461bcceb6cd35da963e71348055b2b",
+  "status": "verified_actual_containers",
+  "pillow_version": "12.3.0",
+  "producer": "Python standard-library container assembly of exact native PNG bytes; Pillow read-back only",
+  "png_reencoded": false,
+  "resized": false,
+  "svg_authored_or_rendered": false,
+  "quality_approved": false,
+  "user_accepted": false,
+  "formats": {
+    "ico": "Seven PNG entries, 16/24/32/48/64/128/256",
+    "icns": "Eleven standard/retina PNG chunks; 24/48 remain standalone PNG and ICO entries"
+  },
+  "primary_sources": {
+    "apple_iconset": "https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode_ref-Asset_Catalog_Format/IconSetType.html",
+    "pillow_formats": "https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html",
+    "pillow_icns_source": "https://pillow.readthedocs.io/en/stable/_modules/PIL/IcnsImagePlugin.html",
+    "pillow_ico_source": "https://pillow.readthedocs.io/en/stable/_modules/PIL/IcoImagePlugin.html"
+  },
+  "icon_sets": [
+    {
+      "id": "vx-light",
+      "native_pngs": [
+        {
+          "width": 16,
+          "height": 16,
+          "mode": "RGBA",
+          "bytes": 451,
+          "sha256": "d1371bf687feb7d7a0c1e17e426bb855fefe7bcff4e974a3107b4ab76b5c2290",
+          "rgba_pixel_sha256": "e5ba7715b1e23e2761c7d6a0de729e27948d62b96e347c5e3afd9d75570afef4",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            1,
+            4,
+            15,
+            11
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/light/vx-16.png",
+          "design_role": "optical-small",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-99052-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "1c60245b40799a673c219500286cccc616b4039350e2189782fcdf1cdbb60a72",
+            "response_sha256": "884d5fa6c42323900a9eaf77cc985b561580f16c23350b8a71752f23090d8905",
+            "request_sha256": "938dc2e37ec246d63695757789598d4fe35a2fcceb75a1e5af15b8b3e0976a65",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-icon-small-16-light-editable.svg",
+              "sha256": "06b69ade291054e013d600a2e18cec30df3d5fddfa3b39d9857648c75715c383"
+            }
+          }
+        },
+        {
+          "width": 24,
+          "height": 24,
+          "mode": "RGBA",
+          "bytes": 675,
+          "sha256": "7384d9163f363ea527e5db3fc267113585369f2c42f02157af58db05e25d4306",
+          "rgba_pixel_sha256": "76be4bc5a90136b5326f4370f30338f027787d20ef72d1425f3d62f236a53e56",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            2,
+            6,
+            22,
+            17
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/light/vx-24.png",
+          "design_role": "optical-small",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-11984-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "2fd0b464ff05c04615a706057d748392dbc7b5eb304c55a8f47ef1a91d3dcf87",
+            "response_sha256": "cfbd74e9f38ee0d5bb7501436fe147133eda01db307cbf90cc5a6bbf880678a4",
+            "request_sha256": "92daa7a83fb380deee4d46b0c11c3d86539e932f4805cb738a2804f30aad7205",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-icon-small-24-light-editable.svg",
+              "sha256": "96b863e83d5b0b755a45e0373774782714eb078efd65e01e2ab3c961f2821441"
+            }
+          }
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "mode": "RGBA",
+          "bytes": 809,
+          "sha256": "993d2337c42ce45728685a23d9a4853d55d1a74b317eff45210265a238b5dde5",
+          "rgba_pixel_sha256": "17dcd7697ff15785fb83870e98fcfabf4b6a34170e330b2c427c313ebadfafea",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            3,
+            9,
+            29,
+            22
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/light/vx-32.png",
+          "design_role": "symbol",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-98740-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "a58e9820f4f5a9f1683b39532f6db0bc8039bef71cc23c4fe29b5a31911a482a",
+            "response_sha256": "979b9d022bd4e733055e2a4b1a007335dabeeeb848c30b5aca2cae0b3bd7abd9",
+            "request_sha256": "13f8abc2c36659e688a8feaeb35abd84804737051d006e40158ab864cd61993d",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-symbol-light-editable.svg",
+              "sha256": "76390d4503a8ea4bdb594a8ed1cf05a369509172f7594b4c2daf5fdf75512b23"
+            }
+          }
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "mode": "RGBA",
+          "bytes": 1269,
+          "sha256": "254a103a46a58f997ea2989062f58af0e3ca8df3e8f2fd7c43a6a585433868dc",
+          "rgba_pixel_sha256": "f78f3e4ead89c00b1491be785d65e3a0207653a4c382cdbba22ee169200646f7",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            4,
+            13,
+            44,
+            33
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/light/vx-48.png",
+          "design_role": "symbol",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-78396-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "2d89760b733273291f5d914fd24f37f22f9fcbdcc85a074e099d788392981d69",
+            "response_sha256": "0fc9b55beda642d79a1c9e289c15d0d879c0e9acd9b7fef19d86197c03ca8d37",
+            "request_sha256": "fbf73c8e8c572ec6eaf652cdc48c2252a2a8e9d354d227475e62de17c1c5d5bf",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-symbol-light-editable.svg",
+              "sha256": "76390d4503a8ea4bdb594a8ed1cf05a369509172f7594b4c2daf5fdf75512b23"
+            }
+          }
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "mode": "RGBA",
+          "bytes": 1667,
+          "sha256": "7bbb756db180e80e45c7989224889b1f29a0226ef61328609682efbbf25bad71",
+          "rgba_pixel_sha256": "ab0f7e2b36ef17f8ad219fc41c1c6fe4638fb66bd4a925d655ecebbc76158cf7",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            6,
+            18,
+            58,
+            44
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/light/vx-64.png",
+          "design_role": "symbol",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-95108-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "5545fc0a9fabf0bc773822eeecc2742c8386a4609aedac468c706ba7aa2bf907",
+            "response_sha256": "34b46281ee5b6c3e6cc8d8c4afca0adb1e58ddcbde93c5f6b646110f19827a3e",
+            "request_sha256": "7691d767ba91b5c77b001e9b530638a8f92360e802909811ad0b76d756cb243a",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-symbol-light-editable.svg",
+              "sha256": "76390d4503a8ea4bdb594a8ed1cf05a369509172f7594b4c2daf5fdf75512b23"
+            }
+          }
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "bytes": 3324,
+          "sha256": "097e415ab8416e0a86deb66df02ec1667c7ee8e833fb34b4d3535f6757f7a9e5",
+          "rgba_pixel_sha256": "16aa945150205cd7098484702d2d157646238dad644251ea9d469719cda638f6",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            12,
+            36,
+            116,
+            87
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/light/vx-128.png",
+          "design_role": "symbol",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-108428-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "d7d9390e4ceea1b1f8e1ee26a15a7f6e1d57b41f154fbaa26f277627bcb7c6da",
+            "response_sha256": "e419a37a1da044e133280d21fcf3b9bd82e0584bb4a657b092e0e7d675da9cc3",
+            "request_sha256": "ea1a3f83e2ac015752ef61c0671e8a81971b3a7f5eac809dc616fd7a31eb6d3e",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-symbol-light-editable.svg",
+              "sha256": "76390d4503a8ea4bdb594a8ed1cf05a369509172f7594b4c2daf5fdf75512b23"
+            }
+          }
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "bytes": 6769,
+          "sha256": "b958af7f0d1cd1390d3dacd87f9d516adead339879772f52efdc4fefb6d033bd",
+          "rgba_pixel_sha256": "dedeb016c338ff90f8dd337ee49c358237b7ec1332b38cf928b7b3c8c2ac10c5",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            24,
+            72,
+            232,
+            173
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/light/vx-256.png",
+          "design_role": "symbol",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-78920-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "c3634259f211a146aefe74891c2b4eb0619de0530b9d963e5b63171740a776bc",
+            "response_sha256": "866595c8ab6597a5c27080e96abf5d8980353a6731aa6641b4372d483f9b9a37",
+            "request_sha256": "e3d18b04ea5df84a8a99f6ccd7fda4f6c1964701bac8bbc151c61c14c6930b12",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-symbol-light-editable.svg",
+              "sha256": "76390d4503a8ea4bdb594a8ed1cf05a369509172f7594b4c2daf5fdf75512b23"
+            }
+          }
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "bytes": 14888,
+          "sha256": "e837c08eadcf39395b3e5c77d5f07d9b8a87149fb86cdf7faa85613f8cb3dd96",
+          "rgba_pixel_sha256": "00418325c2e688339c354bbae69cdfc7039034850068fa5487e1e57158fc1b60",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            48,
+            144,
+            463,
+            346
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/light/vx-512.png",
+          "design_role": "symbol",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-102788-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "3029823feaa75ac5827f62ed2f182a823518ecb0ddb07d88230a5e2386816f2e",
+            "response_sha256": "69317c6e810c8220336ff0701bf738a1af5fb021f8c0a8954563c4c740b2f622",
+            "request_sha256": "66177dc63e154bc503cd858313eb855d841e5f4cebe03293a384c757e12e43db",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-symbol-light-editable.svg",
+              "sha256": "76390d4503a8ea4bdb594a8ed1cf05a369509172f7594b4c2daf5fdf75512b23"
+            }
+          }
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "bytes": 32420,
+          "sha256": "578ecdd357bf825eea1def677f1aab234cdc7de68518d3e8496e58799e237886",
+          "rgba_pixel_sha256": "eb2a5b0cd4342eae70491f1729a3c7ed45550288c0acc907d219c5bf1c652c35",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            96,
+            288,
+            926,
+            692
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IDAT",
+            "IDAT",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/light/vx-1024.png",
+          "design_role": "symbol",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-23456-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "2969bc37f4ee6d0b4a017dfd87d394e63776282b62c4aad2a1fbe4631c8c12ac",
+            "response_sha256": "cebe3edb9d2059c23fc4934bafbbbabe496b968e24b7a45a54aa0e9347bd2888",
+            "request_sha256": "68c1b0f48713751ac7bc261107772ed7defab5625f411e88aec0acbc316448be",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-symbol-light-editable.svg",
+              "sha256": "76390d4503a8ea4bdb594a8ed1cf05a369509172f7594b4c2daf5fdf75512b23"
+            }
+          }
+        }
+      ],
+      "optical_policy": "16/24 use the dedicated small-symbol native SVG; 32 and larger use the symbol native SVG. Geometry is unchanged by packaging. Visual acceptance remains pending.",
+      "containers": [
+        {
+          "path": "native-runtime/workspace/artwork/vx/icons/vx-light.ico",
+          "sha256": "00d382d3988e883b7ff73def5474d916bc70a75865e1961545150be447372455",
+          "bytes": 15082,
+          "written": true,
+          "format": "ICO",
+          "header_verified": true,
+          "frame_count": 7,
+          "frames": [
+            {
+              "width": 16,
+              "height": 16,
+              "offset": 118,
+              "bytes": 451,
+              "encoding": "PNG",
+              "png_sha256": "d1371bf687feb7d7a0c1e17e426bb855fefe7bcff4e974a3107b4ab76b5c2290",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "width": 24,
+              "height": 24,
+              "offset": 569,
+              "bytes": 675,
+              "encoding": "PNG",
+              "png_sha256": "7384d9163f363ea527e5db3fc267113585369f2c42f02157af58db05e25d4306",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "offset": 1244,
+              "bytes": 809,
+              "encoding": "PNG",
+              "png_sha256": "993d2337c42ce45728685a23d9a4853d55d1a74b317eff45210265a238b5dde5",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "offset": 2053,
+              "bytes": 1269,
+              "encoding": "PNG",
+              "png_sha256": "254a103a46a58f997ea2989062f58af0e3ca8df3e8f2fd7c43a6a585433868dc",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "width": 64,
+              "height": 64,
+              "offset": 3322,
+              "bytes": 1667,
+              "encoding": "PNG",
+              "png_sha256": "7bbb756db180e80e45c7989224889b1f29a0226ef61328609682efbbf25bad71",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "width": 128,
+              "height": 128,
+              "offset": 4989,
+              "bytes": 3324,
+              "encoding": "PNG",
+              "png_sha256": "097e415ab8416e0a86deb66df02ec1667c7ee8e833fb34b4d3535f6757f7a9e5",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "width": 256,
+              "height": 256,
+              "offset": 8313,
+              "bytes": 6769,
+              "encoding": "PNG",
+              "png_sha256": "b958af7f0d1cd1390d3dacd87f9d516adead339879772f52efdc4fefb6d033bd",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            }
+          ],
+          "not_supported_in_this_container": [
+            512,
+            1024
+          ],
+          "windows_shell_live_test": "not_performed"
+        },
+        {
+          "path": "native-runtime/workspace/artwork/vx/icons/vx-light.icns",
+          "sha256": "df9043de9b7af08fc514a3f5f5a71b90a8f1f1bed15d1bab4c7d97f7e89b5cdd",
+          "bytes": 84653,
+          "written": true,
+          "format": "ICNS",
+          "header_verified": true,
+          "toc_verified": true,
+          "png_chunk_count": 11,
+          "chunks": [
+            {
+              "type": "icp4",
+              "logical_size_and_scale": [
+                16,
+                16,
+                1
+              ],
+              "pixel_size": [
+                16,
+                16
+              ],
+              "offset": 104,
+              "chunk_bytes": 459,
+              "png_sha256": "d1371bf687feb7d7a0c1e17e426bb855fefe7bcff4e974a3107b4ab76b5c2290",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "icp5",
+              "logical_size_and_scale": [
+                32,
+                32,
+                1
+              ],
+              "pixel_size": [
+                32,
+                32
+              ],
+              "offset": 563,
+              "chunk_bytes": 817,
+              "png_sha256": "993d2337c42ce45728685a23d9a4853d55d1a74b317eff45210265a238b5dde5",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "icp6",
+              "logical_size_and_scale": [
+                64,
+                64,
+                1
+              ],
+              "pixel_size": [
+                64,
+                64
+              ],
+              "offset": 1380,
+              "chunk_bytes": 1675,
+              "png_sha256": "7bbb756db180e80e45c7989224889b1f29a0226ef61328609682efbbf25bad71",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic07",
+              "logical_size_and_scale": [
+                128,
+                128,
+                1
+              ],
+              "pixel_size": [
+                128,
+                128
+              ],
+              "offset": 3055,
+              "chunk_bytes": 3332,
+              "png_sha256": "097e415ab8416e0a86deb66df02ec1667c7ee8e833fb34b4d3535f6757f7a9e5",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic08",
+              "logical_size_and_scale": [
+                256,
+                256,
+                1
+              ],
+              "pixel_size": [
+                256,
+                256
+              ],
+              "offset": 6387,
+              "chunk_bytes": 6777,
+              "png_sha256": "b958af7f0d1cd1390d3dacd87f9d516adead339879772f52efdc4fefb6d033bd",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic09",
+              "logical_size_and_scale": [
+                512,
+                512,
+                1
+              ],
+              "pixel_size": [
+                512,
+                512
+              ],
+              "offset": 13164,
+              "chunk_bytes": 14896,
+              "png_sha256": "e837c08eadcf39395b3e5c77d5f07d9b8a87149fb86cdf7faa85613f8cb3dd96",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic10",
+              "logical_size_and_scale": [
+                512,
+                512,
+                2
+              ],
+              "pixel_size": [
+                1024,
+                1024
+              ],
+              "offset": 28060,
+              "chunk_bytes": 32428,
+              "png_sha256": "578ecdd357bf825eea1def677f1aab234cdc7de68518d3e8496e58799e237886",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic11",
+              "logical_size_and_scale": [
+                16,
+                16,
+                2
+              ],
+              "pixel_size": [
+                32,
+                32
+              ],
+              "offset": 60488,
+              "chunk_bytes": 817,
+              "png_sha256": "993d2337c42ce45728685a23d9a4853d55d1a74b317eff45210265a238b5dde5",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic12",
+              "logical_size_and_scale": [
+                32,
+                32,
+                2
+              ],
+              "pixel_size": [
+                64,
+                64
+              ],
+              "offset": 61305,
+              "chunk_bytes": 1675,
+              "png_sha256": "7bbb756db180e80e45c7989224889b1f29a0226ef61328609682efbbf25bad71",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic13",
+              "logical_size_and_scale": [
+                128,
+                128,
+                2
+              ],
+              "pixel_size": [
+                256,
+                256
+              ],
+              "offset": 62980,
+              "chunk_bytes": 6777,
+              "png_sha256": "b958af7f0d1cd1390d3dacd87f9d516adead339879772f52efdc4fefb6d033bd",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic14",
+              "logical_size_and_scale": [
+                256,
+                256,
+                2
+              ],
+              "pixel_size": [
+                512,
+                512
+              ],
+              "offset": 69757,
+              "chunk_bytes": 14896,
+              "png_sha256": "e837c08eadcf39395b3e5c77d5f07d9b8a87149fb86cdf7faa85613f8cb3dd96",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            }
+          ],
+          "not_standard_png_chunk_sizes": [
+            24,
+            48
+          ],
+          "macos_live_open": "not_performed"
+        }
+      ],
+      "qa_status": "container_structure_and_pixels_verified",
+      "visual_acceptance": "pending",
+      "user_accepted": false
+    },
+    {
+      "id": "vx-dark",
+      "native_pngs": [
+        {
+          "width": 16,
+          "height": 16,
+          "mode": "RGBA",
+          "bytes": 437,
+          "sha256": "c694e68069b7b7b43bf48a8019e1835d504e49c8c09848b54cb0b8db77c14f42",
+          "rgba_pixel_sha256": "3e47cc92b4045981cbc186d27c574eb9956135c2bdd744460baca25e1ed1e5bb",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            1,
+            4,
+            15,
+            11
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/dark/vx-16.png",
+          "design_role": "optical-small",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-57168-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "de18a2ee6da17b8954d88a5c8ff720caed230ca765d458b2f91b3dd361c49d7a",
+            "response_sha256": "23df2cafa7838b55d9eb348e3d329d12247b9cf8e9df8e6c1f9b98f0a8068748",
+            "request_sha256": "9383f619020c6d83725eadac67e8dd377220773558c9b75198d69a5d22611500",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-icon-small-16-dark-editable.svg",
+              "sha256": "b7a0f4b55f517a78f013957e24a536443d84bae34a86706c237abde586d3b414"
+            }
+          }
+        },
+        {
+          "width": 24,
+          "height": 24,
+          "mode": "RGBA",
+          "bytes": 650,
+          "sha256": "895fdf1249d1734ea6aec0668261f99f84f2400f93ea39df1e6d45407bed9fcf",
+          "rgba_pixel_sha256": "a8b823b81418299579fccf7ad95e225121bdeea0597ec92c0b49a188beb31b3a",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            2,
+            6,
+            22,
+            17
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/dark/vx-24.png",
+          "design_role": "optical-small",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-55644-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "d63e896aa7dfbc35a806bbc68da46ef1fd1596cd58d55e0104a02d59d94791e0",
+            "response_sha256": "f8328de1b8cf6ba0c5e2374acfaa1647c98569d5379ac7ab53de2f8bbb69d70c",
+            "request_sha256": "5959da4c61d4ed065b787c19146b74704f2fdf15248da94cc525591070fff1d0",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-icon-small-24-dark-editable.svg",
+              "sha256": "5a08bba5a9f31359b21fc951e2bf848ece6c9f1677ec95514478175acda666d5"
+            }
+          }
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "mode": "RGBA",
+          "bytes": 765,
+          "sha256": "418c7440106fc3c0e8c9f17b35fbbbf0ffaf8a2ca1b76aec19f1261e7387fa93",
+          "rgba_pixel_sha256": "ec6f673869c40e4d652ee75482b31d162b43e75f483597e0a7245ac025572f70",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            3,
+            9,
+            29,
+            22
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/dark/vx-32.png",
+          "design_role": "symbol",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-81676-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "321650e592b732c76734da02e8e333503c20f5ff0a8089950573725fbde3dde8",
+            "response_sha256": "e0e6c063d85fb3641f0aeacb9d621b24fde6bd98c41dcef1cb4f010d88f1df5a",
+            "request_sha256": "b55a3cc323c81bb4bf913fb1cb2faddccf1ca8e456b18932464d75b610bf5ba6",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-symbol-dark-editable.svg",
+              "sha256": "5dcf270de713148ba2e44110e15ed717408763cb23da8047cd8e927e381a0d99"
+            }
+          }
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "mode": "RGBA",
+          "bytes": 1203,
+          "sha256": "422302a0db53c654bec18ff4cd7f8b1048761181fdbce687c33a95d10b9b0687",
+          "rgba_pixel_sha256": "ad19c094e5af16466a60c2355685c49c8def6f357d46c92903c54bc68dffa1b0",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            4,
+            13,
+            44,
+            33
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/dark/vx-48.png",
+          "design_role": "symbol",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-110448-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "91135c1454263711b9fccf4b04fdab99e4b33f48fd851341ff34db6c83e5977e",
+            "response_sha256": "883cf9f16301d351a6a283d4f8bab396adc7d0038d0e9547ee75b66cdf3086e1",
+            "request_sha256": "651e79360f0f46c887165b1002e3bbeee26a935b22eca733e8065c62fb9efe7b",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-symbol-dark-editable.svg",
+              "sha256": "5dcf270de713148ba2e44110e15ed717408763cb23da8047cd8e927e381a0d99"
+            }
+          }
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "mode": "RGBA",
+          "bytes": 1566,
+          "sha256": "00c2deca8f90194448f8e4cacffcaedb12699496bf129b6d2defa1e2ea0a02aa",
+          "rgba_pixel_sha256": "89c7e856ea61976d5a0b18fb44e5f1e4bba332e6fc2dc7820571b713e7c89203",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            6,
+            18,
+            58,
+            44
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/dark/vx-64.png",
+          "design_role": "symbol",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-74784-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "0c4dbeb154c7433cd02091fee1cf31c7d6d0dc76e13cc8bb67c5fdbde6add187",
+            "response_sha256": "aab79ebdceb74818ec9cefcb8380bbf43fc0e6a5afbf798a6ba9a5955e099740",
+            "request_sha256": "14a05bac297c80cf98c99a96848f4dd8c19f29fc4a7ddd72c17450226de85dcd",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-symbol-dark-editable.svg",
+              "sha256": "5dcf270de713148ba2e44110e15ed717408763cb23da8047cd8e927e381a0d99"
+            }
+          }
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "bytes": 3117,
+          "sha256": "e5cdf9f56db991a9c867cd49b513dbf1a8fe8d2cbe96f5fd7ba8fd8d0ce0072d",
+          "rgba_pixel_sha256": "e98538a0283cca8da611360dfbf7618ab36f595d1574e414e0fe08e6f07b713d",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            12,
+            36,
+            116,
+            87
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/dark/vx-128.png",
+          "design_role": "symbol",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-105400-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "b10dbedba0db11036f7a5fef659a548044266a9609d2b935721b3f75a62529e3",
+            "response_sha256": "edaac58e08d3b5df5aca410e2029dc55ab9cab7d8a7412d40200e4fea72b3583",
+            "request_sha256": "5765e2e9d2df41b7b5cbdb0ed67eb729db79b16fcd70a0f1b43a00a0645eb2d7",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-symbol-dark-editable.svg",
+              "sha256": "5dcf270de713148ba2e44110e15ed717408763cb23da8047cd8e927e381a0d99"
+            }
+          }
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "bytes": 6397,
+          "sha256": "2c0d613beff8e0c0b5fd0247486e0c69c3924a3ff2812903d27f98afc95480b6",
+          "rgba_pixel_sha256": "d5c7339cf13b6206f11bade828558e830845fd60a7062c3c276eca7fabc13559",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            24,
+            72,
+            232,
+            173
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/dark/vx-256.png",
+          "design_role": "symbol",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-58520-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "836df403803dee206cd7bd7834e57b11d93c2fa90d5d3d0b52abc81ef83978b7",
+            "response_sha256": "1f20b264e56eaf431ebb665411a08c144829d928933495080a9430cf9624d1de",
+            "request_sha256": "3c7dc73318f4297af180735cfbaab5d18d894df1d95139153534e2e6052d0278",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-symbol-dark-editable.svg",
+              "sha256": "5dcf270de713148ba2e44110e15ed717408763cb23da8047cd8e927e381a0d99"
+            }
+          }
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "bytes": 14018,
+          "sha256": "89a9f977f4408099253946850008821ebd74722aefd88b373329a5443c72545a",
+          "rgba_pixel_sha256": "fbcb55cf5f6c4bd62120c0d5389c81dd5d430ecf15ce0e040034af6dfe056b51",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            48,
+            144,
+            463,
+            346
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/dark/vx-512.png",
+          "design_role": "symbol",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-91044-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "71470da55e87c439b809139ad599806857366608c042e810cc24af38fc2b72c4",
+            "response_sha256": "bfb2d11f84f3dc44fb65295d6b62646e38a6d1316626f7e7fa1d496bfb407a46",
+            "request_sha256": "dc712825abbbfe5b3af8a6f08a964b45a8bed9c9428b1c9ebc60e8642cea0bed",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-symbol-dark-editable.svg",
+              "sha256": "5dcf270de713148ba2e44110e15ed717408763cb23da8047cd8e927e381a0d99"
+            }
+          }
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "bytes": 30758,
+          "sha256": "cbc85d1523624f7548dee2ad3ded25eab3bc96e26fe4a55b522ec21d2749da9e",
+          "rgba_pixel_sha256": "4e9688eb8d02277aec8d9995c8b5d3849d607c8297781b626adcd7d81ebce024",
+          "corner_alpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "nonzero_alpha_bbox": [
+            96,
+            288,
+            926,
+            692
+          ],
+          "png_chunks": [
+            "IHDR",
+            "pHYs",
+            "tEXt",
+            "IDAT",
+            "IDAT",
+            "IDAT",
+            "IDAT",
+            "IEND"
+          ],
+          "path": "native-runtime/workspace/artwork/vx/png/dark/vx-1024.png",
+          "design_role": "symbol",
+          "optical_geometry_modified": false,
+          "provenance": {
+            "request_id": "dcc-mcp-cli-94896-0",
+            "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+            "instance_id": "b45b3b3a-0f0d-4c05-af73-1b4ee38903b6",
+            "tool_slug": "inkscape.b45b3b3a.inkscape_vector__document_export",
+            "control_route": "gateway",
+            "gateway_stats_recorded": true,
+            "receipt_sha256": "f965147d9873819ba7b4eb7e636800bba743b33a7919be2d2df55355d4f25361",
+            "response_sha256": "d90ba5d1083397472a07068514a07ad1dc8f6a8df04ade01f6be88a304e790ca",
+            "request_sha256": "0f14adb599ffa1d47926abd1d704e3afac52a867310cf39ed834aedeb811d3f7",
+            "native_svg": {
+              "path": "native-runtime/workspace/artwork/vx/vx-symbol-dark-editable.svg",
+              "sha256": "5dcf270de713148ba2e44110e15ed717408763cb23da8047cd8e927e381a0d99"
+            }
+          }
+        }
+      ],
+      "optical_policy": "16/24 use the dedicated small-symbol native SVG; 32 and larger use the symbol native SVG. Geometry is unchanged by packaging. Visual acceptance remains pending.",
+      "containers": [
+        {
+          "path": "native-runtime/workspace/artwork/vx/icons/vx-dark.ico",
+          "sha256": "22fa6fce9598ac604d7a8f5bb9cba8b58b08bf2c95a23b577d933d533791c461",
+          "bytes": 14253,
+          "written": true,
+          "format": "ICO",
+          "header_verified": true,
+          "frame_count": 7,
+          "frames": [
+            {
+              "width": 16,
+              "height": 16,
+              "offset": 118,
+              "bytes": 437,
+              "encoding": "PNG",
+              "png_sha256": "c694e68069b7b7b43bf48a8019e1835d504e49c8c09848b54cb0b8db77c14f42",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "width": 24,
+              "height": 24,
+              "offset": 555,
+              "bytes": 650,
+              "encoding": "PNG",
+              "png_sha256": "895fdf1249d1734ea6aec0668261f99f84f2400f93ea39df1e6d45407bed9fcf",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "offset": 1205,
+              "bytes": 765,
+              "encoding": "PNG",
+              "png_sha256": "418c7440106fc3c0e8c9f17b35fbbbf0ffaf8a2ca1b76aec19f1261e7387fa93",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "offset": 1970,
+              "bytes": 1203,
+              "encoding": "PNG",
+              "png_sha256": "422302a0db53c654bec18ff4cd7f8b1048761181fdbce687c33a95d10b9b0687",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "width": 64,
+              "height": 64,
+              "offset": 3173,
+              "bytes": 1566,
+              "encoding": "PNG",
+              "png_sha256": "00c2deca8f90194448f8e4cacffcaedb12699496bf129b6d2defa1e2ea0a02aa",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "width": 128,
+              "height": 128,
+              "offset": 4739,
+              "bytes": 3117,
+              "encoding": "PNG",
+              "png_sha256": "e5cdf9f56db991a9c867cd49b513dbf1a8fe8d2cbe96f5fd7ba8fd8d0ce0072d",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "width": 256,
+              "height": 256,
+              "offset": 7856,
+              "bytes": 6397,
+              "encoding": "PNG",
+              "png_sha256": "2c0d613beff8e0c0b5fd0247486e0c69c3924a3ff2812903d27f98afc95480b6",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            }
+          ],
+          "not_supported_in_this_container": [
+            512,
+            1024
+          ],
+          "windows_shell_live_test": "not_performed"
+        },
+        {
+          "path": "native-runtime/workspace/artwork/vx/icons/vx-dark.icns",
+          "sha256": "2c2ec402bf0cf70351a911d52cd0912d815a961edd6049adbcf40b76c5c74272",
+          "bytes": 79996,
+          "written": true,
+          "format": "ICNS",
+          "header_verified": true,
+          "toc_verified": true,
+          "png_chunk_count": 11,
+          "chunks": [
+            {
+              "type": "icp4",
+              "logical_size_and_scale": [
+                16,
+                16,
+                1
+              ],
+              "pixel_size": [
+                16,
+                16
+              ],
+              "offset": 104,
+              "chunk_bytes": 445,
+              "png_sha256": "c694e68069b7b7b43bf48a8019e1835d504e49c8c09848b54cb0b8db77c14f42",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "icp5",
+              "logical_size_and_scale": [
+                32,
+                32,
+                1
+              ],
+              "pixel_size": [
+                32,
+                32
+              ],
+              "offset": 549,
+              "chunk_bytes": 773,
+              "png_sha256": "418c7440106fc3c0e8c9f17b35fbbbf0ffaf8a2ca1b76aec19f1261e7387fa93",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "icp6",
+              "logical_size_and_scale": [
+                64,
+                64,
+                1
+              ],
+              "pixel_size": [
+                64,
+                64
+              ],
+              "offset": 1322,
+              "chunk_bytes": 1574,
+              "png_sha256": "00c2deca8f90194448f8e4cacffcaedb12699496bf129b6d2defa1e2ea0a02aa",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic07",
+              "logical_size_and_scale": [
+                128,
+                128,
+                1
+              ],
+              "pixel_size": [
+                128,
+                128
+              ],
+              "offset": 2896,
+              "chunk_bytes": 3125,
+              "png_sha256": "e5cdf9f56db991a9c867cd49b513dbf1a8fe8d2cbe96f5fd7ba8fd8d0ce0072d",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic08",
+              "logical_size_and_scale": [
+                256,
+                256,
+                1
+              ],
+              "pixel_size": [
+                256,
+                256
+              ],
+              "offset": 6021,
+              "chunk_bytes": 6405,
+              "png_sha256": "2c0d613beff8e0c0b5fd0247486e0c69c3924a3ff2812903d27f98afc95480b6",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic09",
+              "logical_size_and_scale": [
+                512,
+                512,
+                1
+              ],
+              "pixel_size": [
+                512,
+                512
+              ],
+              "offset": 12426,
+              "chunk_bytes": 14026,
+              "png_sha256": "89a9f977f4408099253946850008821ebd74722aefd88b373329a5443c72545a",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic10",
+              "logical_size_and_scale": [
+                512,
+                512,
+                2
+              ],
+              "pixel_size": [
+                1024,
+                1024
+              ],
+              "offset": 26452,
+              "chunk_bytes": 30766,
+              "png_sha256": "cbc85d1523624f7548dee2ad3ded25eab3bc96e26fe4a55b522ec21d2749da9e",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic11",
+              "logical_size_and_scale": [
+                16,
+                16,
+                2
+              ],
+              "pixel_size": [
+                32,
+                32
+              ],
+              "offset": 57218,
+              "chunk_bytes": 773,
+              "png_sha256": "418c7440106fc3c0e8c9f17b35fbbbf0ffaf8a2ca1b76aec19f1261e7387fa93",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic12",
+              "logical_size_and_scale": [
+                32,
+                32,
+                2
+              ],
+              "pixel_size": [
+                64,
+                64
+              ],
+              "offset": 57991,
+              "chunk_bytes": 1574,
+              "png_sha256": "00c2deca8f90194448f8e4cacffcaedb12699496bf129b6d2defa1e2ea0a02aa",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic13",
+              "logical_size_and_scale": [
+                128,
+                128,
+                2
+              ],
+              "pixel_size": [
+                256,
+                256
+              ],
+              "offset": 59565,
+              "chunk_bytes": 6405,
+              "png_sha256": "2c0d613beff8e0c0b5fd0247486e0c69c3924a3ff2812903d27f98afc95480b6",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            },
+            {
+              "type": "ic14",
+              "logical_size_and_scale": [
+                256,
+                256,
+                2
+              ],
+              "pixel_size": [
+                512,
+                512
+              ],
+              "offset": 65970,
+              "chunk_bytes": 14026,
+              "png_sha256": "89a9f977f4408099253946850008821ebd74722aefd88b373329a5443c72545a",
+              "original_png_bytes_preserved": true,
+              "decoded_pixels_match": true
+            }
+          ],
+          "not_standard_png_chunk_sizes": [
+            24,
+            48
+          ],
+          "macos_live_open": "not_performed"
+        }
+      ],
+      "qa_status": "container_structure_and_pixels_verified",
+      "visual_acceptance": "pending",
+      "user_accepted": false
+    }
+  ]
+}

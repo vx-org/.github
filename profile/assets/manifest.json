@@ -1,0 +1,1503 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-09T16:04:31.315165+00:00",
+  "status": "additive_review_sources_not_production_replacement",
+  "brand": "VX",
+  "repository": "vx-org/.github",
+  "approved_reference_commit": "999245ac3808be05bb0610673310020d29bf3cb2",
+  "adapter_source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+  "native_software": "Inkscape 1.4.4",
+  "palette": {
+    "graphite": "#101713",
+    "chartreuse": "#D7FF3F",
+    "soft_white": "#F4F6F2"
+  },
+  "brand_rights": {
+    "policy": "profile/assets/BRAND-RIGHTS.md",
+    "standalone_asset_license_declared": false,
+    "external_font_dependency": false
+  },
+  "production": {
+    "typed_native_builds": 13,
+    "native_preview_exports": 13,
+    "native_reopen_queries": 13,
+    "additional_native_exports": 33,
+    "png_sizes_per_palette": [
+      1024,
+      512,
+      256,
+      128,
+      64,
+      48,
+      32,
+      24,
+      16
+    ],
+    "container_files": 4,
+    "ico_icns_native_export": false,
+    "containers_preserve_native_png_bytes": true
+  },
+  "acceptance": {
+    "approved_geometry_matches": true,
+    "native_save_reopen_query": true,
+    "light_dark_png_review": true,
+    "small_16_24_one_x_review": true,
+    "optical_geometry_modified": false,
+    "currentcolor_browser_computed_inheritance": true,
+    "currentcolor_browser_version": "151.0.7922.34",
+    "native_gui_visual": false,
+    "native_gui_status": "blocked_protocol_mismatch",
+    "owned_ui_route_stopped": true,
+    "user_accepted_new_variants": false,
+    "windows_shell_icon_open": false,
+    "macos_icon_open": false
+  },
+  "privacy": {
+    "strategy": "Explicit artifact/document/evidence whitelist; preserve hashes without raw private runtime state",
+    "private_paths_credentials_profiles_or_gateway_state_included": false
+  },
+  "existing_production_files_unchanged": {
+    "README.md": "768a51d5bc546cf7895ed3994bfb331bc363b466af746a50c1fc5f0db69020ae",
+    "profile/README.md": "6897bd1bd16ae4ed0167fa2c87566db69d1a1a52f34e3503a2d1433c52b0553d",
+    "profile/assets/README.md": "e8021d4ccaaf745c5fac584c6500768d5951a13d850263a18f5db7e2d7676eed",
+    "profile/assets/vx-avatar-dark.png": "12869c8315a3ec72b9c51d1e2a94db83544aa16e12cabd69db2e6e786a686303",
+    "profile/assets/vx-lockup-dark.svg": "3885ba0efe5db9fdc55ddc6abeaa58f443e0de80153000cbb7f21b33f86385c0",
+    "profile/assets/vx-lockup-light.svg": "8345d088ef50f39d342ca1e18bdaab6ea70c5fdff94583f4f53f48ceb371565e",
+    "profile/assets/vx-symbol-dark.svg": "4d1d2dbdada01d4d90ef063dc2e519e06d385081c0224ff1c91d6b17070d1154",
+    "profile/assets/vx-symbol-light.svg": "64cc9d6d21553fb97bcd7fa9ed26c0d9a1728fc14f132331efb620f1892495f5"
+  },
+  "manifest_self_hash": "Excluded to avoid a recursive digest",
+  "files": [
+    {
+      "path": "profile/assets/.gitattributes",
+      "role": "byte_preservation_attributes",
+      "qa_only": false,
+      "sha256": "a00e251a422bfdab5e3180eaacfb6db4ed50cd33831678e77930f5b0c8354d45",
+      "bytes": 169
+    },
+    {
+      "path": "profile/assets/BRAND-RIGHTS.md",
+      "role": "document_or_sanitized_evidence",
+      "bytes": 1710,
+      "sha256": "17f13498d2ce2a313c21b18f6da6ce5592401ffad85d50ab8646342483b05877",
+      "qa_only": false
+    },
+    {
+      "path": "profile/assets/native/README.md",
+      "role": "document_or_sanitized_evidence",
+      "bytes": 4510,
+      "sha256": "d6e0c61fa20d09a66ab5ee5bb5c6b8c287af8ed7f32df58609804af001cc748b",
+      "qa_only": false
+    },
+    {
+      "path": "profile/assets/native/evidence/vx-native-build-reopen-calls-v1.jsonl",
+      "role": "document_or_sanitized_evidence",
+      "bytes": 35438,
+      "sha256": "3308eb1122d35d40ccdf5183c224069170237fffc245d38aff37c595eb760656",
+      "qa_only": false
+    },
+    {
+      "path": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl",
+      "role": "sanitized_export_calls",
+      "bytes": 66518,
+      "sha256": "965559e6582a47b528cc89957f7d75e3dc36b608fa2f1733188ec0e98aa0f1fc",
+      "qa_only": false
+    },
+    {
+      "path": "profile/assets/native/qa/container-packaging-qa.json",
+      "role": "container_qa",
+      "bytes": 53186,
+      "sha256": "a4724e3953d03e2f75dcf51b50326efa5819929476eb64cb2b09da9bbefc9aaf",
+      "qa_only": true
+    },
+    {
+      "path": "profile/assets/native/qa/currentcolor-browser-qa.json",
+      "role": "sanitized_qa_report",
+      "bytes": 2025,
+      "sha256": "72e6c69a1998641625ec79dfe90525f994e662782dd92a277ec21f034905302a",
+      "qa_only": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-gui-status.json",
+      "role": "document_or_sanitized_evidence",
+      "bytes": 776,
+      "sha256": "6de013b0595537d74c01c4930a543ca2bfd913d30ab5ad35f4f2e77dc582d223",
+      "qa_only": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-output-audit.json",
+      "role": "sanitized_qa_report",
+      "bytes": 30719,
+      "sha256": "67cab44729807bc15ee7dc8dbef3936886f1f66d844fecfdff031a2405be204c",
+      "qa_only": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-pipeline-audit.json",
+      "role": "sanitized_qa_report",
+      "bytes": 65127,
+      "sha256": "2a11418867c0d8ce0433f7a607fc84daa232f68f58b71b092651ba78d3a38217",
+      "qa_only": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-previews/vx-icon-small-16-currentcolor.png",
+      "role": "native_preview",
+      "bytes": 336,
+      "sha256": "a4232fcf528524150dde0abef454e26bd7725fc16da35e5a54483f6657614baa",
+      "qa_only": true,
+      "dimensions_px": [
+        16,
+        16
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-previews/vx-icon-small-16-dark.png",
+      "role": "native_preview",
+      "bytes": 437,
+      "sha256": "c694e68069b7b7b43bf48a8019e1835d504e49c8c09848b54cb0b8db77c14f42",
+      "qa_only": true,
+      "dimensions_px": [
+        16,
+        16
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-previews/vx-icon-small-16-light.png",
+      "role": "native_preview",
+      "bytes": 451,
+      "sha256": "d1371bf687feb7d7a0c1e17e426bb855fefe7bcff4e974a3107b4ab76b5c2290",
+      "qa_only": true,
+      "dimensions_px": [
+        16,
+        16
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-previews/vx-icon-small-24-currentcolor.png",
+      "role": "native_preview",
+      "bytes": 469,
+      "sha256": "f772f04adb518140996abe52d9dc26a7a2705e28ea35ea9ce8654c60ef986a36",
+      "qa_only": true,
+      "dimensions_px": [
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-previews/vx-icon-small-24-dark.png",
+      "role": "native_preview",
+      "bytes": 650,
+      "sha256": "895fdf1249d1734ea6aec0668261f99f84f2400f93ea39df1e6d45407bed9fcf",
+      "qa_only": true,
+      "dimensions_px": [
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-previews/vx-icon-small-24-light.png",
+      "role": "native_preview",
+      "bytes": 675,
+      "sha256": "7384d9163f363ea527e5db3fc267113585369f2c42f02157af58db05e25d4306",
+      "qa_only": true,
+      "dimensions_px": [
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-previews/vx-lockup-currentcolor.png",
+      "role": "native_preview",
+      "bytes": 10675,
+      "sha256": "1ac2e389a58952db1f08da99bac5a025bf9f5e4413073861d22795e9858c65b3",
+      "qa_only": true,
+      "dimensions_px": [
+        640,
+        224
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-previews/vx-lockup-dark.png",
+      "role": "native_preview",
+      "bytes": 13052,
+      "sha256": "045ea2ffa1569284b8c2e5ee68cb7933a0396eac214c5251121113fb06cab9eb",
+      "qa_only": true,
+      "dimensions_px": [
+        640,
+        224
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-previews/vx-lockup-light.png",
+      "role": "native_preview",
+      "bytes": 13361,
+      "sha256": "c67db157632bac3871d2563803e17a3813aac5748d2ffb1f2abd83f22c727d67",
+      "qa_only": true,
+      "dimensions_px": [
+        640,
+        224
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-previews/vx-master.png",
+      "role": "native_preview",
+      "bytes": 13052,
+      "sha256": "045ea2ffa1569284b8c2e5ee68cb7933a0396eac214c5251121113fb06cab9eb",
+      "qa_only": true,
+      "dimensions_px": [
+        640,
+        224
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-previews/vx-symbol-currentcolor.png",
+      "role": "native_preview",
+      "bytes": 12331,
+      "sha256": "8a21189a0618f5d1afcd597b012682609f07211fa9ec2435746c4455f40d5b17",
+      "qa_only": true,
+      "dimensions_px": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-previews/vx-symbol-dark.png",
+      "role": "native_preview",
+      "bytes": 14018,
+      "sha256": "89a9f977f4408099253946850008821ebd74722aefd88b373329a5443c72545a",
+      "qa_only": true,
+      "dimensions_px": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/native/qa/native-previews/vx-symbol-light.png",
+      "role": "native_preview",
+      "bytes": 14888,
+      "sha256": "e837c08eadcf39395b3e5c77d5f07d9b8a87149fb86cdf7faa85613f8cb3dd96",
+      "qa_only": true,
+      "dimensions_px": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/native/qa/vx-background-composites-v1.png",
+      "role": "display_qa",
+      "bytes": 90756,
+      "sha256": "c699f46f11848fe043ea75312b65cc5e8e5a5202dddaaefe315fa289a9c79493",
+      "qa_only": true,
+      "dimensions_px": [
+        1344,
+        1232
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "transparent_pixels": false
+    },
+    {
+      "path": "profile/assets/native/qa/vx-currentcolor-browser-v1.png",
+      "role": "display_qa",
+      "bytes": 69301,
+      "sha256": "8243b1aab46c456855e743444da8d7dcd35391dff43e5e8d1560705c8fcca7ab",
+      "qa_only": true,
+      "dimensions_px": [
+        1100,
+        1537
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "transparent_pixels": false
+    },
+    {
+      "path": "profile/assets/native/qa/vx-small-1x-nearest-v1.png",
+      "role": "display_qa",
+      "bytes": 25523,
+      "sha256": "9d0b01ddf22280e8e96ebadad6ef62140d115351e5e07b51036d1418c8227bd5",
+      "qa_only": true,
+      "dimensions_px": [
+        1280,
+        860
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "transparent_pixels": false
+    },
+    {
+      "path": "profile/assets/native/typed-plans/README.md",
+      "role": "document_or_sanitized_evidence",
+      "bytes": 875,
+      "sha256": "2301a53bd2f9885e194a3502e71cbe8dd706c03b0dc85d541bb3c114ec9e9038",
+      "qa_only": false
+    },
+    {
+      "path": "profile/assets/native/typed-plans/vx-icon-small-16-currentcolor.build.json",
+      "role": "typed_mcp_input",
+      "bytes": 1869,
+      "sha256": "fbca780dff06e5a6fb8636183bc4b795347b4eb2bb7e44dbc82b23a5d5991258",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-16-currentcolor.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false
+    },
+    {
+      "path": "profile/assets/native/typed-plans/vx-icon-small-16-dark.build.json",
+      "role": "typed_mcp_input",
+      "bytes": 1857,
+      "sha256": "3966f2ab262e47366c577d565cab0de6817ec88e8561205997e2e33f44a3e383",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-16-dark.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false
+    },
+    {
+      "path": "profile/assets/native/typed-plans/vx-icon-small-16-light.build.json",
+      "role": "typed_mcp_input",
+      "bytes": 1842,
+      "sha256": "ea0b67fb7e5a6d9ede286324a58cc65ba56474093fdf55048bd7f022e3d82592",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-16-light.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false
+    },
+    {
+      "path": "profile/assets/native/typed-plans/vx-icon-small-24-currentcolor.build.json",
+      "role": "typed_mcp_input",
+      "bytes": 1869,
+      "sha256": "e9218ece1cf879f69405769fcafd32e9be3a17621cadd8c06773e0991a38247f",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-24-currentcolor.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false
+    },
+    {
+      "path": "profile/assets/native/typed-plans/vx-icon-small-24-dark.build.json",
+      "role": "typed_mcp_input",
+      "bytes": 1857,
+      "sha256": "6fa7578c2cd60da927c14d2f79e6135c701b055c543c8a970ded76f5f5439a60",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-24-dark.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false
+    },
+    {
+      "path": "profile/assets/native/typed-plans/vx-icon-small-24-light.build.json",
+      "role": "typed_mcp_input",
+      "bytes": 1842,
+      "sha256": "be12699fc0b6316a870e3d5d88b420466527fbd92ffc9f1a391f8a6c118fd413",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-24-light.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false
+    },
+    {
+      "path": "profile/assets/native/typed-plans/vx-lockup-currentcolor.build.json",
+      "role": "typed_mcp_input",
+      "bytes": 4060,
+      "sha256": "bb7f462b388a610d87072f8ace39546d6f3fc2cbfb75e89f71c5ed76c1c26e67",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-lockup-currentcolor.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false
+    },
+    {
+      "path": "profile/assets/native/typed-plans/vx-lockup-dark.build.json",
+      "role": "typed_mcp_input",
+      "bytes": 4046,
+      "sha256": "1845492d0f508c30f63d8c2e752fbc02eb89e78d3fbba9013aebf1491c2ab003",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-lockup-dark.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false
+    },
+    {
+      "path": "profile/assets/native/typed-plans/vx-lockup-light.build.json",
+      "role": "typed_mcp_input",
+      "bytes": 4023,
+      "sha256": "7cac83d1572e66fbd9ea0b55fd8634a5844e45e3ed3a5b8b4b0f2d677e3e781e",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-lockup-light.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false
+    },
+    {
+      "path": "profile/assets/native/typed-plans/vx-master.build.json",
+      "role": "typed_mcp_input",
+      "bytes": 4041,
+      "sha256": "3563894d90bb7b4a507cb29939223ab05142a37288b48067e0c0b7f8ec2ef71c",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-master.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false
+    },
+    {
+      "path": "profile/assets/native/typed-plans/vx-symbol-currentcolor.build.json",
+      "role": "typed_mcp_input",
+      "bytes": 1868,
+      "sha256": "be31e332d7b084fb5772ba04787db072191977652dd28bc72f75bb1682e3c038",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-symbol-currentcolor.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false
+    },
+    {
+      "path": "profile/assets/native/typed-plans/vx-symbol-dark.build.json",
+      "role": "typed_mcp_input",
+      "bytes": 1856,
+      "sha256": "9629eef75c0a4c6d2a04d5fdd2179e53c98d9d01289185f6b05f12bff747492e",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-symbol-dark.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false
+    },
+    {
+      "path": "profile/assets/native/typed-plans/vx-symbol-light.build.json",
+      "role": "typed_mcp_input",
+      "bytes": 1841,
+      "sha256": "67f72dca760216bab8d6dc845dccd1e5c2614e0bfddf58101eb0a0025fd3114b",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-symbol-light.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false
+    },
+    {
+      "path": "profile/assets/native/vx-icon-small-16-currentcolor.inkscape.svg",
+      "role": "native_editable",
+      "bytes": 2071,
+      "sha256": "2cb39b334673931634fd63e2da21b4fc3a7df0f8553b45ec30377299db9a5baf",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-16-currentcolor.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "dimensions": {
+        "width": "16px",
+        "height": "16px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/native/vx-icon-small-16-dark.inkscape.svg",
+      "role": "native_editable",
+      "bytes": 2067,
+      "sha256": "b7a0f4b55f517a78f013957e24a536443d84bae34a86706c237abde586d3b414",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-16-dark.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "dimensions": {
+        "width": "16px",
+        "height": "16px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/native/vx-icon-small-16-light.inkscape.svg",
+      "role": "native_editable",
+      "bytes": 2051,
+      "sha256": "06b69ade291054e013d600a2e18cec30df3d5fddfa3b39d9857648c75715c383",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-16-light.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "dimensions": {
+        "width": "16px",
+        "height": "16px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/native/vx-icon-small-24-currentcolor.inkscape.svg",
+      "role": "native_editable",
+      "bytes": 2071,
+      "sha256": "db7b67e3559ddfdd708feb50c79084a18609636f20384b2b827e43557ee02734",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-24-currentcolor.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "dimensions": {
+        "width": "24px",
+        "height": "24px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/native/vx-icon-small-24-dark.inkscape.svg",
+      "role": "native_editable",
+      "bytes": 2067,
+      "sha256": "5a08bba5a9f31359b21fc951e2bf848ece6c9f1677ec95514478175acda666d5",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-24-dark.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "dimensions": {
+        "width": "24px",
+        "height": "24px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/native/vx-icon-small-24-light.inkscape.svg",
+      "role": "native_editable",
+      "bytes": 2051,
+      "sha256": "96b863e83d5b0b755a45e0373774782714eb078efd65e01e2ab3c961f2821441",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-24-light.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "dimensions": {
+        "width": "24px",
+        "height": "24px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/native/vx-lockup-currentcolor.inkscape.svg",
+      "role": "native_editable",
+      "bytes": 4013,
+      "sha256": "82065ae57e4ab9ca64f88bbf5c0ae8ae95bde7c275248c48bda87a31defd215f",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-lockup-currentcolor.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "dimensions": {
+        "width": "640.0px",
+        "height": "224.0px",
+        "view_box": "0.0 0.0 640.0 224.0"
+      },
+      "path_count": 6
+    },
+    {
+      "path": "profile/assets/native/vx-lockup-dark.inkscape.svg",
+      "role": "native_editable",
+      "bytes": 4007,
+      "sha256": "b9523ffc18bf3bb67afc7340c3aa40a03672cc7df2f8d3c5471496d661ebc8dc",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-lockup-dark.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "dimensions": {
+        "width": "640.0px",
+        "height": "224.0px",
+        "view_box": "0.0 0.0 640.0 224.0"
+      },
+      "path_count": 6
+    },
+    {
+      "path": "profile/assets/native/vx-lockup-light.inkscape.svg",
+      "role": "native_editable",
+      "bytes": 3983,
+      "sha256": "6046a620f216b19edd67c9e02825d0228ab47df8a3200bfdbeff09161610b473",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-lockup-light.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "dimensions": {
+        "width": "640.0px",
+        "height": "224.0px",
+        "view_box": "0.0 0.0 640.0 224.0"
+      },
+      "path_count": 6
+    },
+    {
+      "path": "profile/assets/native/vx-master.inkscape.svg",
+      "role": "native_editable",
+      "bytes": 4007,
+      "sha256": "ee94819b78ab784fae28bb353ccd829cf3b8f305561e1f53afd65eb3bc9f1890",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-master.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "dimensions": {
+        "width": "640.0px",
+        "height": "224.0px",
+        "view_box": "0.0 0.0 640.0 224.0"
+      },
+      "path_count": 6
+    },
+    {
+      "path": "profile/assets/native/vx-symbol-currentcolor.inkscape.svg",
+      "role": "native_editable",
+      "bytes": 2077,
+      "sha256": "a3f4d10e1db11e27c9b593b01cb2afb8673d10e298df55432a6d526b86faf697",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-symbol-currentcolor.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "dimensions": {
+        "width": "512.0px",
+        "height": "512.0px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/native/vx-symbol-dark.inkscape.svg",
+      "role": "native_editable",
+      "bytes": 2073,
+      "sha256": "5dcf270de713148ba2e44110e15ed717408763cb23da8047cd8e927e381a0d99",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-symbol-dark.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "dimensions": {
+        "width": "512.0px",
+        "height": "512.0px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/native/vx-symbol-light.inkscape.svg",
+      "role": "native_editable",
+      "bytes": 2057,
+      "sha256": "76390d4503a8ea4bdb594a8ed1cf05a369509172f7594b4c2daf5fdf75512b23",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-symbol-light.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "dimensions": {
+        "width": "512.0px",
+        "height": "512.0px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/variants/README.md",
+      "role": "document_or_sanitized_evidence",
+      "bytes": 2278,
+      "sha256": "13d10b4b6cce11eababd3904aae607acfcc310f77e63a452c67b90efba7f62df",
+      "qa_only": false
+    },
+    {
+      "path": "profile/assets/variants/favicon.svg",
+      "role": "native_favicon",
+      "bytes": 1232,
+      "sha256": "f92c2d3281ec38ab449e7237f5d7ef3def6a2d504602088623fa4b67c6994780",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-109956-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions": {
+        "width": "16px",
+        "height": "16px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/variants/icons/vx-dark.icns",
+      "role": "packaged_icns",
+      "bytes": 79996,
+      "sha256": "2c2ec402bf0cf70351a911d52cd0912d815a961edd6049adbcf40b76c5c74272",
+      "qa_only": false
+    },
+    {
+      "path": "profile/assets/variants/icons/vx-dark.ico",
+      "role": "packaged_ico",
+      "bytes": 14253,
+      "sha256": "22fa6fce9598ac604d7a8f5bb9cba8b58b08bf2c95a23b577d933d533791c461",
+      "qa_only": false
+    },
+    {
+      "path": "profile/assets/variants/icons/vx-light.icns",
+      "role": "packaged_icns",
+      "bytes": 84653,
+      "sha256": "df9043de9b7af08fc514a3f5f5a71b90a8f1f1bed15d1bab4c7d97f7e89b5cdd",
+      "qa_only": false
+    },
+    {
+      "path": "profile/assets/variants/icons/vx-light.ico",
+      "role": "packaged_ico",
+      "bytes": 15082,
+      "sha256": "00d382d3988e883b7ff73def5474d916bc70a75865e1961545150be447372455",
+      "qa_only": false
+    },
+    {
+      "path": "profile/assets/variants/png/dark/vx-1024.png",
+      "role": "native_transparent_png",
+      "bytes": 30758,
+      "sha256": "cbc85d1523624f7548dee2ad3ded25eab3bc96e26fe4a55b522ec21d2749da9e",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-94896-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/dark/vx-128.png",
+      "role": "native_transparent_png",
+      "bytes": 3117,
+      "sha256": "e5cdf9f56db991a9c867cd49b513dbf1a8fe8d2cbe96f5fd7ba8fd8d0ce0072d",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-105400-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/dark/vx-16.png",
+      "role": "native_transparent_png",
+      "bytes": 437,
+      "sha256": "c694e68069b7b7b43bf48a8019e1835d504e49c8c09848b54cb0b8db77c14f42",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-57168-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        16,
+        16
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/dark/vx-24.png",
+      "role": "native_transparent_png",
+      "bytes": 650,
+      "sha256": "895fdf1249d1734ea6aec0668261f99f84f2400f93ea39df1e6d45407bed9fcf",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-55644-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/dark/vx-256.png",
+      "role": "native_transparent_png",
+      "bytes": 6397,
+      "sha256": "2c0d613beff8e0c0b5fd0247486e0c69c3924a3ff2812903d27f98afc95480b6",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-58520-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        256,
+        256
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/dark/vx-32.png",
+      "role": "native_transparent_png",
+      "bytes": 765,
+      "sha256": "418c7440106fc3c0e8c9f17b35fbbbf0ffaf8a2ca1b76aec19f1261e7387fa93",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-81676-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        32,
+        32
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/dark/vx-48.png",
+      "role": "native_transparent_png",
+      "bytes": 1203,
+      "sha256": "422302a0db53c654bec18ff4cd7f8b1048761181fdbce687c33a95d10b9b0687",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-110448-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        48,
+        48
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/dark/vx-512.png",
+      "role": "native_transparent_png",
+      "bytes": 14018,
+      "sha256": "89a9f977f4408099253946850008821ebd74722aefd88b373329a5443c72545a",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-91044-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/dark/vx-64.png",
+      "role": "native_transparent_png",
+      "bytes": 1566,
+      "sha256": "00c2deca8f90194448f8e4cacffcaedb12699496bf129b6d2defa1e2ea0a02aa",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-74784-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        64,
+        64
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/light/vx-1024.png",
+      "role": "native_transparent_png",
+      "bytes": 32420,
+      "sha256": "578ecdd357bf825eea1def677f1aab234cdc7de68518d3e8496e58799e237886",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-23456-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/light/vx-128.png",
+      "role": "native_transparent_png",
+      "bytes": 3324,
+      "sha256": "097e415ab8416e0a86deb66df02ec1667c7ee8e833fb34b4d3535f6757f7a9e5",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-108428-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        128,
+        128
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/light/vx-16.png",
+      "role": "native_transparent_png",
+      "bytes": 451,
+      "sha256": "d1371bf687feb7d7a0c1e17e426bb855fefe7bcff4e974a3107b4ab76b5c2290",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-99052-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        16,
+        16
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/light/vx-24.png",
+      "role": "native_transparent_png",
+      "bytes": 675,
+      "sha256": "7384d9163f363ea527e5db3fc267113585369f2c42f02157af58db05e25d4306",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-11984-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        24,
+        24
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/light/vx-256.png",
+      "role": "native_transparent_png",
+      "bytes": 6769,
+      "sha256": "b958af7f0d1cd1390d3dacd87f9d516adead339879772f52efdc4fefb6d033bd",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-78920-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        256,
+        256
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/light/vx-32.png",
+      "role": "native_transparent_png",
+      "bytes": 809,
+      "sha256": "993d2337c42ce45728685a23d9a4853d55d1a74b317eff45210265a238b5dde5",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-98740-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        32,
+        32
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/light/vx-48.png",
+      "role": "native_transparent_png",
+      "bytes": 1269,
+      "sha256": "254a103a46a58f997ea2989062f58af0e3ca8df3e8f2fd7c43a6a585433868dc",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-78396-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        48,
+        48
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/light/vx-512.png",
+      "role": "native_transparent_png",
+      "bytes": 14888,
+      "sha256": "e837c08eadcf39395b3e5c77d5f07d9b8a87149fb86cdf7faa85613f8cb3dd96",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-102788-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/png/light/vx-64.png",
+      "role": "native_transparent_png",
+      "bytes": 1667,
+      "sha256": "7bbb756db180e80e45c7989224889b1f29a0226ef61328609682efbbf25bad71",
+      "qa_only": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-95108-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        64,
+        64
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": true
+    },
+    {
+      "path": "profile/assets/variants/review/vx-avatar-candidate.png",
+      "role": "native_avatar_review_candidate",
+      "bytes": 16619,
+      "sha256": "20d5eac63c4e52da1a4ed02d0faf8f74c314ab536b13987f2ebcfb2e7e99d206",
+      "qa_only": true,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-43476-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions_px": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "transparent_pixels": false
+    },
+    {
+      "path": "profile/assets/variants/svg/vx-icon-small-16-currentcolor.svg",
+      "role": "native_plain_svg",
+      "bytes": 1232,
+      "sha256": "f92c2d3281ec38ab449e7237f5d7ef3def6a2d504602088623fa4b67c6994780",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-16-currentcolor.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-105532-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions": {
+        "width": "16px",
+        "height": "16px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/variants/svg/vx-icon-small-16-dark.svg",
+      "role": "native_plain_svg",
+      "bytes": 1228,
+      "sha256": "9612265efc35ad264ad36e652f4bdfe9e3aefabad8dc10ae93529c179cce8eb7",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-16-dark.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-24740-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions": {
+        "width": "16px",
+        "height": "16px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/variants/svg/vx-icon-small-16-light.svg",
+      "role": "native_plain_svg",
+      "bytes": 1212,
+      "sha256": "2a7e4ee8aca8a36326d116ff927340179c00ed9be4a178aba761cb49aa5e639a",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-16-light.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-48224-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions": {
+        "width": "16px",
+        "height": "16px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/variants/svg/vx-icon-small-24-currentcolor.svg",
+      "role": "native_plain_svg",
+      "bytes": 1232,
+      "sha256": "92d96a77f2afa3635bdbd95a20d77ca428871d7ad7a72dffc66fc350a434ffff",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-24-currentcolor.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-70772-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions": {
+        "width": "24px",
+        "height": "24px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/variants/svg/vx-icon-small-24-dark.svg",
+      "role": "native_plain_svg",
+      "bytes": 1228,
+      "sha256": "63649bc9214ed23721b89f06eebef5f55745627f24f08cd75d65d490f764aeba",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-24-dark.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-19476-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions": {
+        "width": "24px",
+        "height": "24px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/variants/svg/vx-icon-small-24-light.svg",
+      "role": "native_plain_svg",
+      "bytes": 1212,
+      "sha256": "c15d24016d432719215db4be25438c79fd658e975547b288befc1cd135703730",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-icon-small-24-light.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-61848-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions": {
+        "width": "24px",
+        "height": "24px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/variants/svg/vx-lockup-currentcolor.svg",
+      "role": "native_plain_svg",
+      "bytes": 2899,
+      "sha256": "dd934ba9cfc8f546229057f47ad88b199ffd3e2bea2401a092409419c8367ad4",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-lockup-currentcolor.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-59144-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions": {
+        "width": "640.0px",
+        "height": "224.0px",
+        "view_box": "0.0 0.0 640.0 224.0"
+      },
+      "path_count": 6
+    },
+    {
+      "path": "profile/assets/variants/svg/vx-lockup-dark.svg",
+      "role": "native_plain_svg",
+      "bytes": 2893,
+      "sha256": "222485936ff1359a30d274517a06095787de685e00bf944f7299f41291e520ed",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-lockup-dark.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-60136-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions": {
+        "width": "640.0px",
+        "height": "224.0px",
+        "view_box": "0.0 0.0 640.0 224.0"
+      },
+      "path_count": 6
+    },
+    {
+      "path": "profile/assets/variants/svg/vx-lockup-light.svg",
+      "role": "native_plain_svg",
+      "bytes": 2869,
+      "sha256": "7108716ddd15d43c2c995f3b2446cf0140c59cd301577fc89a3e404be5ec056a",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-lockup-light.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-63136-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions": {
+        "width": "640.0px",
+        "height": "224.0px",
+        "view_box": "0.0 0.0 640.0 224.0"
+      },
+      "path_count": 6
+    },
+    {
+      "path": "profile/assets/variants/svg/vx-master.svg",
+      "role": "native_plain_svg",
+      "bytes": 2893,
+      "sha256": "983bf0e5261db356d439088fa30b259fc3ebfc1328f3bef79e121972b100fe17",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-master.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-94808-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions": {
+        "width": "640.0px",
+        "height": "224.0px",
+        "view_box": "0.0 0.0 640.0 224.0"
+      },
+      "path_count": 6
+    },
+    {
+      "path": "profile/assets/variants/svg/vx-symbol-currentcolor.svg",
+      "role": "native_plain_svg",
+      "bytes": 1238,
+      "sha256": "25493745c674025790ba95adc3a53722078c52f9ac015ca4147c9b206516cf1f",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-symbol-currentcolor.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-92824-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions": {
+        "width": "512.0px",
+        "height": "512.0px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/variants/svg/vx-symbol-dark.svg",
+      "role": "native_plain_svg",
+      "bytes": 1234,
+      "sha256": "3fc5ade9230148e9d610d6445973260e8048869b05f73f4ca22fc8b46c3ddab7",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-symbol-dark.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-71776-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions": {
+        "width": "512.0px",
+        "height": "512.0px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    },
+    {
+      "path": "profile/assets/variants/svg/vx-symbol-light.svg",
+      "role": "native_plain_svg",
+      "bytes": 1218,
+      "sha256": "ff6eac46744154be4aae91cc5d2bfd9b417b2cd10bd8d232e5fdce414952cd02",
+      "qa_only": false,
+      "typed_plan": "profile/assets/native/typed-plans/vx-symbol-light.build.json",
+      "geometry_matches_approved_v2": true,
+      "optical_geometry_modified": false,
+      "production": {
+        "producer": "Inkscape",
+        "request_id": "dcc-mcp-cli-34976-0",
+        "source_commit": "8551608a1cdb1331ca03bb3110ef6473e0fb16cc",
+        "evidence": "profile/assets/native/evidence/vx-native-export-calls-v1.jsonl"
+      },
+      "dimensions": {
+        "width": "512.0px",
+        "height": "512.0px",
+        "view_box": "0.0 0.0 512.0 512.0"
+      },
+      "path_count": 4
+    }
+  ],
+  "existing_production_file_hash_scope": "Initial Windows checkout bytes; existing Git blobs are unchanged",
+  "new_file_hash_scope": "Raw repository file bytes; scoped -text attributes preserve bytes across Git checkouts"
+}
